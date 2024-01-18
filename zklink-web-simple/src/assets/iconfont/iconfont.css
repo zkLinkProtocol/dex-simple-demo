@@ -1,0 +1,335 @@
+@font-face {
+  font-family: 'iconfont';
+  /* Project id 3534497 */
+  src: url('iconfont.woff2?t=1691498408870') format('woff2'),
+    url('iconfont.woff?t=1691498408870') format('woff'),
+    url('iconfont.ttf?t=1691498408870') format('truetype');
+}
+
+.iconfont {
+  font-family: 'iconfont' !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ArrowRight2:before {
+  content: '\e6a8';
+}
+
+.icon-time:before {
+  content: '\e6a9';
+}
+
+.icon-send:before {
+  content: '\e6ab';
+}
+
+.icon-notification:before {
+  content: '\e6a6';
+}
+
+.icon-download:before {
+  content: '\e6a7';
+}
+
+.icon-a-Mobileicon_award:before {
+  content: '\e6a5';
+}
+
+.icon-award-hover_DARK:before {
+  content: '\e6a1';
+}
+
+.icon-award-filled_DARK:before {
+  content: '\e6a2';
+}
+
+.icon-award-filled1:before {
+  content: '\e6a3';
+}
+
+.icon-award-hover:before {
+  content: '\e6a4';
+}
+
+.icon-award-filled:before {
+  content: '\e6a0';
+}
+
+.icon-Medium:before {
+  content: '\e69a';
+}
+
+.icon-email:before {
+  content: '\e69b';
+}
+
+.icon-Discord1:before {
+  content: '\e69c';
+}
+
+.icon-share:before {
+  content: '\e69d';
+}
+
+.icon-Telegram:before {
+  content: '\e69e';
+}
+
+.icon-Twitter:before {
+  content: '\e69f';
+}
+
+.icon-Notis_PC:before {
+  content: '\e698';
+}
+
+.icon-Notis_Mobile:before {
+  content: '\e699';
+}
+
+.icon-switch:before {
+  content: '\e697';
+}
+
+.icon-date:before {
+  content: '\e696';
+}
+
+.icon-qr-code:before {
+  content: '\e694';
+}
+
+.icon-wallet:before {
+  content: '\e693';
+}
+
+.icon-address2:before {
+  content: '\e692';
+}
+
+.icon-logout:before {
+  content: '\e691';
+}
+
+.icon-link:before {
+  content: '\e690';
+}
+
+.icon-info:before {
+  content: '\e68f';
+}
+
+.icon-more:before {
+  content: '\e68e';
+}
+
+.icon-eye-open:before {
+  content: '\e68c';
+}
+
+.icon-eye-slashed:before {
+  content: '\e68d';
+}
+
+.icon-a-Bugreport:before {
+  content: '\e68b';
+}
+
+.icon-rate:before {
+  content: '\e68a';
+}
+
+.icon-connect3:before {
+  content: '\e688';
+}
+
+.icon-connect2:before {
+  content: '\e689';
+}
+
+.icon-infoDefault_new:before {
+  content: '\e687';
+}
+
+.icon-Warning1:before {
+  content: '\e686';
+}
+
+.icon-Back:before {
+  content: '\e662';
+}
+
+.icon-DropDown:before {
+  content: '\e685';
+}
+
+.icon-Warning:before {
+  content: '\e659';
+}
+
+.icon-Success:before {
+  content: '\e65a';
+}
+
+.icon-Info:before {
+  content: '\e65b';
+}
+
+.icon-Error:before {
+  content: '\e65c';
+}
+
+.icon-add:before {
+  content: '\e65d';
+}
+
+.icon-ArrowRight:before {
+  content: '\e65e';
+}
+
+.icon-ArrowDown:before {
+  content: '\e660';
+}
+
+.icon-ArrowLeft:before {
+  content: '\e661';
+}
+
+.icon-check-fill:before {
+  content: '\e663';
+}
+
+.icon-close:before {
+  content: '\e664';
+}
+
+.icon-close2-Hover:before {
+  content: '\e665';
+}
+
+.icon-confirm:before {
+  content: '\e666';
+}
+
+.icon-close2:before {
+  content: '\e667';
+}
+
+.icon-cancel:before {
+  content: '\e668';
+}
+
+.icon-copy1:before {
+  content: '\e669';
+}
+
+.icon-a-Connectyourwallet:before {
+  content: '\e66a';
+}
+
+.icon-cryptocurrencies:before {
+  content: '\e66b';
+}
+
+.icon-Deposit:before {
+  content: '\e66c';
+}
+
+.icon-infoDefault:before {
+  content: '\e66d';
+}
+
+.icon-connect:before {
+  content: '\e66e';
+}
+
+.icon-faucet:before {
+  content: '\e66f';
+}
+
+.icon-infoHover:before {
+  content: '\e670';
+}
+
+.icon-Down:before {
+  content: '\e671';
+}
+
+.icon-flashlight:before {
+  content: '\e672';
+}
+
+.icon-Loading:before {
+  content: '\e673';
+}
+
+.icon-flashlight-fill:before {
+  content: '\e674';
+}
+
+.icon-menu:before {
+  content: '\e675';
+}
+
+.icon-light:before {
+  content: '\e676';
+}
+
+.icon-night:before {
+  content: '\e677';
+}
+
+.icon-refresh:before {
+  content: '\e678';
+}
+
+.icon-people:before {
+  content: '\e679';
+}
+
+.icon-UserGuide:before {
+  content: '\e67a';
+}
+
+.icon-Up:before {
+  content: '\e67b';
+}
+
+.icon-Loading2:before {
+  content: '\e67c';
+}
+
+.icon-Stablecoin:before {
+  content: '\e67d';
+}
+
+.icon-Search:before {
+  content: '\e67e';
+}
+
+.icon-Activate:before {
+  content: '\e67f';
+}
+
+.icon-view:before {
+  content: '\e680';
+}
+
+.icon-Discord:before {
+  content: '\e681';
+}
+
+.icon-Trading:before {
+  content: '\e682';
+}
+
+.icon-withdraw:before {
+  content: '\e683';
+}
+
+.icon-a-nodata:before {
+  content: '\e684';
+}

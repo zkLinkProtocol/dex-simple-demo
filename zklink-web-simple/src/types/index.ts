@@ -1,0 +1,25 @@
+export type Ether = string // "0.123"
+export type Wei = string // Wei = 1 Ether * 10 ** 18 (e.g. "1000000000000000000000")
+export type Address = string // account address, "0x0000000000000000000000000000000"
+export type ContractAddress = string // "0x0000000000000000000000000000000"
+export type L1ChainId = number // layer1 chain id, 1 or 4 or 80001 or 43113 ...
+export type L2ChainId = number // layer2 chain id, 1 or 2 ... or 7
+export type TokenId = number // Nexus currency id
+export type L2TokenId = number // layer2 currency id
+export type TokenSymbol = string // "USDC"
+export type TokenAddress = string // "0x0000000000000000000000000000000"
+export type AccountNonce = number // layer2 account nonce
+export type SlotNonce = number // layer2 order slot nonce
+export type UserId = number // Nexus user id
+export type AccountId = number // Nexus fund account id defaults 0
+export type L2AccountId = number // layer2 user id
+export type SymbolId = number // market symbol id, 100103
+export type SymbolName = string // market symbol name, 'BCH_USDT'
+export type Timestamp = number // 1620000000000
+export type OrderId = number
+export type Price = number // order price, 40000.0
+export type Quantity = number // order quantity, 1.0
+export type L1Signature = string
+export type L2Signature = string
+export type SubAccountId = number
+export type Microseconds = number

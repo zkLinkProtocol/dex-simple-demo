@@ -1,0 +1,17 @@
+{
+  "short_name": "zkLink",
+  "name": "zkLink",
+  "homepage_url": "https://zk.link",
+  "icons": [
+    {
+      "src": "./favicon-180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#03D498",
+  "background_color": "#ffffff"
+}
