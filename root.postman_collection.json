@@ -1,0 +1,389 @@
+{
+	"info": {
+		"_postman_id": "debbad75-9acb-4dec-817f-bd863b16763f",
+		"name": "root",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25646530"
+	},
+	"item": [
+		{
+			"name": "getLatestBlockNumber",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1,\r\n  \"jsonrpc\": \"2.0\",\r\n  \"method\": \"getLatestBlockNumber\",\r\n  \"params\": []\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{zklink_endpoint}}",
+					"host": [
+						"{{zklink_endpoint}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getBlockByNumber",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1,\r\n  \"jsonrpc\": \"2.0\",\r\n  \"method\": \"getBlockByNumber\",\r\n  \"params\": [5076, true, false]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{zklink_endpoint}}",
+					"host": [
+						"{{zklink_endpoint}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getPendingBlock",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"jsonrpc\": \"2.0\",\r\n    \"method\": \"getPendingBlock\",\r\n    \"params\": [\r\n        1696657549,\r\n        true,\r\n        true\r\n    ],\r\n    \"id\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{zklink_endpoint}}",
+					"host": [
+						"{{zklink_endpoint}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getFastWithdrawTxs",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"jsonrpc\": \"2.0\",\r\n    \"method\": \"getFastWithdrawTxs\",\r\n    \"params\": [\r\n        \"2023-07-20T06:35:58.419Z\",\r\n        1\r\n    ],\r\n    \"id\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{zklink_endpoint}}",
+					"host": [
+						"{{zklink_endpoint}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getChangePubkeyChainId",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1,\r\n  \"jsonrpc\": \"2.0\",\r\n  \"method\": \"getChangePubkeyChainId\",\r\n  \"params\": []\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{zklink_endpoint}}",
+					"host": [
+						"{{zklink_endpoint}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getSupportChains",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1,\r\n  \"jsonrpc\": \"2.0\",\r\n  \"method\": \"getSupportChains\",\r\n  \"params\": []\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{zklink_endpoint}}",
+					"host": [
+						"{{zklink_endpoint}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getEthProperty",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1,\r\n  \"jsonrpc\": \"2.0\",\r\n  \"method\": \"getEthProperty\",\r\n  \"params\": []\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{zklink_endpoint}}",
+					"host": [
+						"{{zklink_endpoint}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getSupportTokens",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1,\r\n  \"jsonrpc\": \"2.0\",\r\n  \"method\": \"getSupportTokens\",\r\n  \"params\": []\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{zklink_endpoint}}",
+					"host": [
+						"{{zklink_endpoint}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAccount",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1,\r\n  \"jsonrpc\": \"2.0\",\r\n  \"method\": \"getAccount\",\r\n  \"params\": [\"0xae3D741C3f1e745f811f878Ca4BeB355a88f1158\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{zklink_endpoint}}",
+					"host": [
+						"{{zklink_endpoint}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAccountBalances",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1,\r\n  \"jsonrpc\": \"2.0\",\r\n  \"method\": \"getAccountBalances\",\r\n  \"params\": [6150]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{zklink_endpoint}}",
+					"host": [
+						"{{zklink_endpoint}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getTransactionByHash",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1,\r\n  \"jsonrpc\": \"2.0\",\r\n  \"method\": \"getTransactionByHash\",\r\n  \"params\": [\"0xa40d68137c1d71e476866a53a9636ce39f360ac6360cfed8874c07cb540d206b\", false]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{zklink_endpoint}}",
+					"host": [
+						"{{zklink_endpoint}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAccountSnapshot",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1,\r\n  \"jsonrpc\": \"2.0\",\r\n  \"method\": \"getAccountSnapshot\",\r\n  \"params\": [\"0xeF9AD92eef5F1D9A3d04B30642b9D6648686781e\", 1, null]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{zklink_endpoint}}",
+					"host": [
+						"{{zklink_endpoint}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAccountTransactionHistory",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"getAccountTransactionHistory\",\n    \"params\": [\n        \"Deposit\",\n        \"0xae3D741C3f1e745f811f878Ca4BeB355a88f1158\",\n        0,\n        10\n    ],\n    \"id\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{zklink_endpoint}}",
+					"host": [
+						"{{zklink_endpoint}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getTokenReserve",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"jsonrpc\": \"2.0\",\r\n    \"method\": \"getTokenReserve\",\r\n    \"params\": [\r\n        17,\r\n        true\r\n    ],\r\n    \"id\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{zklink_endpoint}}",
+					"host": [
+						"{{zklink_endpoint}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sendTransaction",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"jsonrpc\": \"2.0\",\r\n    \"method\": \"sendTransaction\",\r\n    \"params\": [\r\n        {\r\n            \"accountId\": 2,\r\n            \"fromSubAccountId\": 0,\r\n            \"toSubAccountId\": 0,\r\n            \"to\": \"0xc00b712639542296dd539bc2d32725d5040bffff\",\r\n            \"amount\": \"99900000000000000000\",\r\n            \"fee\": \"100000000000000000\",\r\n            \"nonce\": 63,\r\n            \"type\": \"Transfer\",\r\n            \"from\": \"0x53b93B39BEA030f45F5E271b3345564C265Cd62B\",\r\n            \"token\": 1,\r\n            \"ts\": 1695698940,\r\n            \"signature\": {\r\n                \"pubKey\": \"f99f561d66ee9cab0fb3fb72d9d05a87f0c03ae9d0286cb513cb540ef1a22718\",\r\n                \"signature\": \"96cd4c07f7cb8a3541bd34853ffc1dc0dc18d23c0465628496c85ef7922b42103bfd17992b3c7f4ebdf3eaf79320cda11c28275a9959d88f4bc2352f2eff0601\"\r\n            }\r\n        },\r\n        {\r\n            \"type\": \"EthereumSignature\",\r\n            \"signature\": \"0x555983e4cf078e50ca15522f6543285f6e276f71313b1954e3395596137d75d40977218f1117916dfa8174dc96a71b4fd6d88322bf99fab7e9a8b5921efae8351b\"\r\n        },\r\n        null\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{zklink_endpoint}}",
+					"host": [
+						"{{zklink_endpoint}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAccountTransactionHistory",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"getAccountTransactionHistory\",\n    \"params\": [\n        \"Transfer\",\n        \"0xB2BD927b44F5763ef74Ed102d8d236B01359E2cC\",\n        0,\n        10\n    ],\n    \"id\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{zklink_endpoint}}",
+					"host": [
+						"{{zklink_endpoint}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
