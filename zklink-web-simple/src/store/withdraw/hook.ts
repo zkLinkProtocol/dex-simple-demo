@@ -242,19 +242,19 @@ export function useWithdraw() {
         const nonce = await getAccountNonce(address, 2)
 
         const payload: SignWithdrawPayload = {
-          accountId: id,
-          toChainId: toChainId,
-          subAccountId: SUB_ACCOUNT_ID,
-          to: address,
-          l2SourceTokenId: tokenId,
-          l2SourceTokenSymbol: tokenSymbol,
-          l1TargetTokenId: tokenId,
-          amount: tokenAmount,
-          tokenDecimals,
-          fee: fee.toString(),
-          withdrawFeeRatio: fastWithdraw ? withdrawFeeRatio : 0,
-          withdrawToL1: !!withdrawToL1,
-          nonce: nonce,
+          accountId: id, // Layer 2 account id, 0
+          toChainId: toChainId, // Layer 2 chain id, 1
+          subAccountId: SUB_ACCOUNT_ID, // Layer 2 sub account id, 0
+          to: address, // layer 1 address, "0x..."
+          l2SourceTokenId: tokenId, // layer 2 token id, 1
+          l2SourceTokenSymbol: tokenSymbol, // layer 2 token symbol, "USDC"
+          l1TargetTokenId: tokenId, // layer 2 token id, 1
+          amount: tokenAmount, // layer 2 token amount, 1000000000000000000
+          tokenDecimals, // layer 2 token decimals, 18
+          fee: fee.toString(), // layer 1 fee, 0
+          withdrawFeeRatio: fastWithdraw ? withdrawFeeRatio : 0, // 0
+          withdrawToL1: !!withdrawToL1, // Withdraw to ethereum = 1, withdraw to others = 0
+          nonce: nonce, // layer 2 sub account nonce, 0, from getAccount result.subAccountNonces[0]
         }
 
         const signedData = await signWithdraw(signer, payload)

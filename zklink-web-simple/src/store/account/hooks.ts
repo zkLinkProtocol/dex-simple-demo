@@ -127,13 +127,13 @@ export function useActivateAccount() {
         const nonce = await getAccountNonce(address, 1)
 
         const signedData = await signChangePubKey(signer, {
-          accountId: id,
-          subAccountId: SUB_ACCOUNT_ID,
-          chainId: layerTwoChainId,
+          accountId: id, // from getAccount, result.id
+          subAccountId: SUB_ACCOUNT_ID, // must 0
+          chainId: layerTwoChainId, // from getChangePubkeyChainId specify
           ethAuthType: 'EthECDSA',
-          feeTokenId: token.l2CurrencyId,
+          feeTokenId: token.l2CurrencyId, // from getAccountBalances
           fee: '0',
-          nonce: nonce,
+          nonce: nonce, // from getAccount, result.nonce
         })
 
         const { tx, layer1_signature } = signedData
